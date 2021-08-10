@@ -26,6 +26,7 @@ div#wrap {
 div#headerFrame {
   height: 130px;
 }
+
 #header {
   text-align: center;
   background-color: #ff8c00;
@@ -39,6 +40,7 @@ div#headerFrame {
   font-weight: normal;
   transform: scaleX(1.05);
 }
+
 #header p {
   height: 26px;
   line-height: 26px;
