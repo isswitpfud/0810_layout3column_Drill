@@ -1,0 +1,182 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #bfddd0;
+}
+
+div#wrap {
+  width: 600px;
+  margin: 20px auto;
+  border: 1px solid #aaa;
+  background-color: #fff;
+}
+
+.Tblcell {
+  display: table-cell;
+  vertical-align: top;
+}
+
+/* div#headerFrame */
+div#headerFrame {
+  width: 100%;
+}
+
+#header {
+  text-align: center;
+  background-color: #ff8c00;
+}
+
+#header h1 {
+  color: #fff;
+  height: 82px;
+  line-height: 70px;
+  font-size: 75px;
+  font-weight: normal;
+  transform: scaleX(1.05);
+}
+
+#header p {
+  height: 24px;
+  line-height: 24px;
+  color: #fff;
+  font-size: 17px;
+  letter-spacing: 2.7px;
+}
+
+#headerAticle {
+  text-align: center;
+  font-size: 11px;
+  padding: 5px 0;
+  background-color: #aebaa4;
+}
+
+/* div#main 시작 */
+
+div#main {
+  display: table;
+}
+div#TblRow {
+  display: table-row;
+}
+
+#artist,
+#rightArticle {
+  width: 144px;
+}
+
+#contents {
+  flex: 1;
+}
+/* div#artist */
+
+#artist h3 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: normal;
+  background-color: #731b00;
+  padding: 6px;
+}
+
+div#artist ul {
+  padding-left: 8px;
+}
+
+div#artist li a {
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 26px;
+  text-decoration: underline;
+}
+
+/* div#contents 시작*/
+div#contents {
+  background-color: #c2c9bb;
+  padding: 8px;
+}
+
+div#contents > div > h3 {
+  color: #fff;
+  padding: 6px;
+  font-size: 14px;
+  font-weight: normal;
+  background-color: #00252f;
+}
+
+div#contents div > p {
+  padding: 14px 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+div#contents div > span {
+  font-size: 12px;
+  padding-bottom: 14px;
+  line-height: 14px;
+  display: inline-block;
+}
+
+div#contents div:last-child > span {
+  padding-bottom: 0px;
+}
+
+/* div#rightArticle */
+#rightArticle {
+  padding: 10px 5px 0 8px;
+}
+div#rightArticle h3 {
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+div#rightArticle h3 > span {
+  text-decoration: underline;
+}
+div#rightArticle h3 > span:nth-child(1) {
+  color: #85897a;
+}
+div#rightArticle h3 > span:nth-child(2) {
+  color: #ff8c00;
+}
+
+div#rightArticle p {
+  font-size: 8px;
+  line-height: 12px;
+  padding-bottom: 20px;
+}
+
+div#rightArticle p > b {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* div#main 끝 */
+
+/* footer#footer 시작 */
+#footer {
+  width: 600px;
+  padding: 5px 0;
+  font-size: 11px;
+  text-align: center;
+  background-color: #00252f;
+
+  display: table-row;
+  display: inline-block;
+}
+#footer > p {
+  color: #fff;
+}
+#footer span {
+  color: #fff;
+  text-decoration: underline;
+  display: inline-block;
+}
+
+/* footer#footer 끝 */
